@@ -1,0 +1,20 @@
+{
+  "name": "chatpro",
+  "version": "1.0.0",
+  "description": "ChatPro",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server",
+    "start": "nodemon server"
+  },
+  "author": "nVn",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
